@@ -52,4 +52,9 @@ Action: add contract tests and migration notes before changing payloads.
 
 ## Reference
 
-Read `references/laws.md` when a broad review needs more law options or when the user asks for a law-based checklist.
+Use bundled references only when they add needed precision:
+
+- Skip references for small answers where `Fast Lenses` already gives enough direction.
+- Read `references/laws.md` when the task is broad, ambiguous, or needs a category scan before choosing laws.
+- Open `references/laws/<slug>.md` when using a law as a main argument and you need concrete examples, exact source framing, origins, or related laws.
+- Do not load many per-law files by default. Pick the 1-3 files that match the decision after the first category scan.
