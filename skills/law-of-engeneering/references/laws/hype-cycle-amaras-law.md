@@ -1,6 +1,5 @@
 # The Hype Cycle & Amara's Law
 
-> Source: https://lawsofsoftwareengineering.com/laws/hype-cycle-amaras-law/
 > Author: Dr. Milan Milanović
 > Category: Decisions
 > Experience Level: mid
@@ -16,14 +15,11 @@ We tend to overestimate the effect of a technology in the short run and underest
 3. For developers and tech leaders, this means not getting swept up in the hype cycle. Be patient and evaluate new tools by their proven value, not just the buzz.
 4. Treat innovation as a limited budget. Good teams use stable, proven tech for most needs and adopt a hyped new technology only when it truly addresses a real problem.
 
-
 ## Overview
 
 This law describes the familiar boom-and-bust hype cycle in tech. Gartner's Hype Cycle captures the pattern: a new technology triggers inflated expectations, hits a trough of disillusionment when reality falls short, then gradually climbs a slope of enlightenment toward productive mainstream adoption.
 
 In software engineering, many buzzword technologies are initially promoted as game-changers but decline when they cannot deliver promised results. However, after that reality check, some quietly mature and find real usability. The lesson is to have healthy skepticism during hype, but keep an open mind for long-term adoption.
-
-
 
 ## Examples
 
@@ -31,32 +27,14 @@ AI saw its first big hype wave in the 1960s-70s, when people assumed general AI 
 
 Microservices architecture was hyped as the cure for all scaling issues. Many teams hit the trough of disillusionment when they encountered complexity of managing hundreds of services. Now, a more balanced use of microservices is emerging, delivering benefits in the right situations.
 
-
-
-## Origins
-
-Amara's Law is named after Roy Amara, an American researcher and futurist who was president of the Institute for the Future. Amara was an American scientist who began his career as a Navy electronics technician during World War II.
-
-In 1995, the Gartner Hype Cycle framework was introduced by Gartner analyst Jackie Fenn, who noticed a recurring pattern in the maturity of emerging technologies and created a visual graph to describe it.
-
-
-
-
 ## Related Laws
 
 - Goodharts Law
 - Galls Law
 - Second System Effect
 
-
-## Further Reading
-
-- [Gartner Hype Cycle](https://www.gartner.com/en/research/methodologies/gartner-hype-cycle) — Gartner's official explanation of the Hype Cycle methodology
-- [Institute for the Future](https://www.iftf.org/) — The organization Roy Amara led, focused on futures thinking and foresight
-
 ---
 
 Citation: "The Hype Cycle & Amara's Law" from *Laws of Software Engineering* by Dr. Milan Milanović
-Canonical URL: https://lawsofsoftwareengineering.com/laws/hype-cycle-amaras-law/
-Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1) — https://lawsofsoftwareengineering.com/book/
+Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1)
 © 2026 Dr. Milan Milanović. Attribution required.

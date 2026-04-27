@@ -1,6 +1,5 @@
 # Law of Demeter
 
-> Source: https://lawsofsoftwareengineering.com/laws/law-of-demeter/
 > Author: Dr. Milan Milanović
 > Category: Design
 > Experience Level: mid
@@ -15,7 +14,6 @@ An object should only interact with its immediate friends, not strangers.
 2. If object A only calls B (its immediate friend) and doesn’t reach into B’s internals (like C), then changes to C or removal of C don’t affect A. Each class knows as little as possible about others, reducing the impact of changes
 3. It often leads to adding wrapper methods or delegations. While that might increase the number of methods, it results in cleaner interactions. 
 
-
 ## Overview
 
 The Law of Demeter, also known as "don't talk to strangers" or the "principle of least knowledge," was formulated to minimize the knowledge that any given object has about the overall system structure. 
@@ -26,8 +24,6 @@ This fosters loose coupling. If you break LoD, your code assumes the structure e
 
 LoD aligns with information hiding: each object hides its internals and only exposes necessary interfaces.
 
-
-
 ## Examples
 
 Consider a `Presenter` object with a reference to a UI View containing a `TextField`. Without LoD, the presenter might do `view.getTextField().setText("Hello")`. LoD encourages View to provide `setUserMessage(String)`, internally calling `textField.setText`. The Presenter doesn't need to know there's a TextField specifically. If later the View uses a Label instead, the Presenter code doesn't change.
@@ -36,17 +32,6 @@ You can identify violations by counting dots: `a.getB().getC().doSomething()` ha
 
 By adhering to LoD, each component remains more self-contained, and systems become a network of "friends" rather than a tangle of strangers reaching through each other.
 
-
-
-## Origins
-
-The Law of Demeter was first described around 1987 by Ian Holland and colleagues at Northeastern University as part of the Demeter Project on adaptive and aspect-oriented software development. It's named after the project, which itself was named after the Greek goddess of agriculture, signifying a "growing" approach to software.
-
-The researchers, including Karl Lieberherr, sought ways to make software more maintainable and developed this style rule. They summarized it with the motto "Only talk to your friends."
-
-
-
-
 ## Related Laws
 
 - Solid Principles
@@ -54,17 +39,8 @@ The researchers, including Karl Lieberherr, sought ways to make software more ma
 - Hyrums Law
 - Kiss Principle
 
-
-## Further Reading
-
-- [Object-Oriented Programming: An Objective Sense of Style](https://www2.ccs.neu.edu/research/demeter/papers/law-of-demeter/oopsla88-law-of-demeter.pdf) — Original paper by Lieberherr, Holland, and Riel
-- [Law of Demeter - Wikipedia](https://en.wikipedia.org/wiki/Law_of_Demeter) — Overview of the principle with examples
-- [The Paperboy, The Wallet, and The Law Of Demeter](https://www2.ccs.neu.edu/research/demeter/demeter-method/LawOfDemeter/paper-boy/demeter.pdf) — Introduction paper by David Bock with the famous Paperboy example
-- [Design Patterns: Elements of Reusable Object-Oriented Software](https://amzn.to/3LnM5o6) — The Gang of Four book with patterns that enforce loose coupling
-
 ---
 
 Citation: "Law of Demeter" from *Laws of Software Engineering* by Dr. Milan Milanović
-Canonical URL: https://lawsofsoftwareengineering.com/laws/law-of-demeter/
-Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1) — https://lawsofsoftwareengineering.com/book/
+Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1)
 © 2026 Dr. Milan Milanović. Attribution required.

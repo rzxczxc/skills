@@ -1,6 +1,5 @@
 # Gilb's Law
 
-> Source: https://lawsofsoftwareengineering.com/laws/gilbs-law/
 > Author: Dr. Milan Milanović
 > Category: Planning
 > Experience Level: mid
@@ -16,7 +15,6 @@ Anything you need to quantify can be measured in some way better than not measur
 3. Start with a basic measure and refine it over time. The act of measuring helps teams focus and identify trends.
 4. Even an approximate or indirect measurement is better than none.
 
-
 ## Overview
 
 Gilb's Law responds to the paralysis that Goodhart's Law can cause. This law asserts that even an approximate or indirect measurement is better than none. When something is essential (performance, customer satisfaction, code maintainability), you should attempt to measure it, because otherwise you have no objective feedback. 
@@ -25,21 +23,11 @@ Gilb's Law is a good reply to the statement “this aspect is unmeasurable so we
 
 Those metrics won't be perfect, but Gilb's Law suggests that having them gives you some insight and a starting point for improvement, which is better than having no clue at all. 
 
-
-
 ## Examples
 
 Measuring **developer productivity** is notoriously hard (lines of code are poor proxies, story points can be inconsistent). However, you might use deployment frequency or change lead time (as in the DORA metrics for DevOps) as a proxy. They do not capture everything, but they give you actionable data. If deployment frequency decreases, something might be wrong with the pipeline.
 
 Another example is **tracking Tech Debt**. No perfect measure of tech debt exists. But tracking things like code complexity scores, incident rates, and developer surveys gives you visibility you would not otherwise have. As Peter Drucker said: "We cannot improve what we do not measure."
-
-
-
-## Origins
-
-Tom Gilb, a consultant and author on software engineering, formulated this law. It complements his other work on quantifying requirements and using metrics in planning, including Planguage and evolutionary project management.
-
-
 
 ## Balance with Goodhart's Law
 
@@ -47,23 +35,13 @@ Gilb's Law and Goodhart's Law form a complementary pair. Goodhart warns against 
 
 The key is to use metrics for awareness, and to continuously refine what you measure.
 
-
-
 ## Related Laws
 
 - Goodharts Law
 - Parkinsons Law
 
-
-## Further Reading
-
-- [Tom Gilb - Wikipedia](https://en.wikipedia.org/wiki/Tom_Gilb) — Overview of Tom Gilb's contributions to software engineering
-- [Competitive Engineering](https://amzn.to/49AqaT1) — Tom Gilb's book on quantified requirements and design
-- [DORA Metrics](https://dora.dev/guides/dora-metrics-four-keys/) — The four key metrics for measuring DevOps performance
-
 ---
 
 Citation: "Gilb's Law" from *Laws of Software Engineering* by Dr. Milan Milanović
-Canonical URL: https://lawsofsoftwareengineering.com/laws/gilbs-law/
-Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1) — https://lawsofsoftwareengineering.com/book/
+Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1)
 © 2026 Dr. Milan Milanović. Attribution required.

@@ -1,6 +1,5 @@
 # Zawinski's Law
 
-> Source: https://lawsofsoftwareengineering.com/laws/zawinskis-law/
 > Author: Dr. Milan Milanović
 > Category: Architecture
 > Experience Level: senior
@@ -16,7 +15,6 @@ Every program attempts to expand until it can read mail.
 3. Programs expand because users (and product managers) keep asking for “just one more feature”. There is constant pressure to incorporate popular capabilities to keep users from leaving for other tools.
 4. Each new feature increases complexity, which makes the product confusing for users. Developers should protect the tool’s focus and resist platform sprawl.
 
-
 ## Overview
 
 Zawinski's Law is a humorous observation about software evolution stating that applications continually gain features until they do everything, even things completely outside their original scope. It highlights feature creep, the gradual expansion of scope in software development.
@@ -24,8 +22,6 @@ Zawinski's Law is a humorous observation about software evolution stating that a
 As an application attracts more users, it faces growing expectations to add more capabilities. A basic note-taking app might later incorporate chat or sharing. 
 
 Zawinski's point was about "platformization": once users live in an app for a significant part of their day, there is pressure for that app to become a platform that can do everything. Unchecked expansion can sabotage a product's original value. Adding features is easy, but adding only the right features and saying "no" to the rest is essential.
-
-
 
 ## Examples
 
@@ -35,33 +31,13 @@ Zawinski's point was about "platformization": once users live in an app for a si
 
 **GitHub** started hosting code, then expanded to issue tracking, wikis, project boards, discussions, CI pipelines, and package registries.
 
-
-
-## Origins
-
-**Jamie Zawinski** (known as jwz) formulated this law around 1995 during his time at Netscape. He was a key programmer on Netscape Navigator and later added the integrated Netscape Mail reader.
-
-He described the browser's evolution as "our contribution to the proof of the Law of Software Envelopment." Netscape started as a web browser but by version 2.0-3.0 had expanded to include an email client and news reader. 
-
-"Reading mail" was the chosen example because in the mid-90s, you often had to exit your current application and launch a mail program separately.
-
-
-
-
 ## Related Laws
 
 - Second System Effect
 - Yagni
 
-
-## Further Reading
-
-- [Zawinski's Law - Wikipedia](https://en.wikipedia.org/wiki/Jamie_Zawinski#Zawinski's_Law) — Wikipedia section on Zawinski's Law
-- [Don't Let Architecture Astronauts Scare You](https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/) — Joel Spolsky's classic essay on software bloat and platformization
-
 ---
 
 Citation: "Zawinski's Law" from *Laws of Software Engineering* by Dr. Milan Milanović
-Canonical URL: https://lawsofsoftwareengineering.com/laws/zawinskis-law/
-Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1) — https://lawsofsoftwareengineering.com/book/
+Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1)
 © 2026 Dr. Milan Milanović. Attribution required.

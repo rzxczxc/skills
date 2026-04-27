@@ -1,6 +1,5 @@
 # Dunbar's Number
 
-> Source: https://lawsofsoftwareengineering.com/laws/dunbars-number/
 > Author: Dr. Milan Milanović
 > Category: Teams
 > Experience Level: senior
@@ -16,7 +15,6 @@ There is a cognitive limit of about 150 stable relationships one person can main
 3. Smaller limits exist for closer relationships. Effective working groups might be much smaller than 150, but 150 is an upper bound for a community feeling.
 4. Strong collaboration happens in groups far below the 150 threshold. Small teams win.
 
-
 ## Overview
 
 Dunbar's Number means that an engineering department of 150 might function informally, but as it grows past that, you start needing more formal rules, communication channels, and management layers. Informal knowledge ("I know who to talk to about X") begins to fail, and teams feel impersonal.
@@ -24,8 +22,6 @@ Dunbar's Number means that an engineering department of 150 might function infor
 The rule encourages designing sub-teams or "teams of teams" that are small enough to work together effectively. Dunbar also proposed smaller social layers: ~5 intimate relationships, ~15 trusted collaborators, ~50 close working relationships, and ~150 stable social connections. 
 
 For software teams, high-trust work happens in tiny groups, teams larger than ~10-15 lose cohesion, and the 150 limit applies to departments or communities, not day-to-day collaboration.
-
-
 
 ## Examples
 
@@ -35,31 +31,13 @@ The **Linux kernel community** has thousands of contributors, but within it are 
 
 Amazon's "two-pizza teams" (5-10 people) show that even within 150, effective working teams are smaller units.
 
-
-
-## Origins
-
-**Robin Dunbar** introduced this number in a 1992 paper and popularized it in his book *Grooming, Gossip, and the Evolution of Language*. He found a correlation between primate neocortex size and social group size, predicting human size at ~150.
-
-Examples such as historical village sizes, military company units, and communal groups often hover around 100-200, lending credence to the figure.
-
-
-
-
 ## Related Laws
 
 - Conways Law
 - Brooks Law
 
-
-## Further Reading
-
-- [Dunbar's Number - Wikipedia](https://en.wikipedia.org/wiki/Dunbar%27s_number) — Wikipedia article on Dunbar's number
-- [Grooming, Gossip, and the Evolution of Language](https://www.amazon.com/Grooming-Gossip-Evolution-Language-Dunbar/dp/0674363361) — Robin Dunbar's book introducing the concept
-
 ---
 
 Citation: "Dunbar's Number" from *Laws of Software Engineering* by Dr. Milan Milanović
-Canonical URL: https://lawsofsoftwareengineering.com/laws/dunbars-number/
-Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1) — https://lawsofsoftwareengineering.com/book/
+Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1)
 © 2026 Dr. Milan Milanović. Attribution required.

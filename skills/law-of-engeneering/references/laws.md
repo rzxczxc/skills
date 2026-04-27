@@ -1,6 +1,6 @@
 # Laws Reference
 
-Overview table for https://lawsofsoftwareengineering.com/. Use it to pick relevant laws quickly; follow `[ref]` only when a specific law needs source details, examples, origins, or related laws.
+Overview table for choosing relevant laws quickly. Follow `[ref]` only when a specific law needs examples, tradeoffs, or related laws.
 
 ## Architecture
 

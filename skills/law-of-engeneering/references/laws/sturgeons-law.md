@@ -1,6 +1,5 @@
 # Sturgeon's Law
 
-> Source: https://lawsofsoftwareengineering.com/laws/sturgeons-law/
 > Author: Dr. Milan Milanović
 > Category: Quality
 > Experience Level: junior
@@ -15,7 +14,6 @@
 2. In software, there are often many features or code paths that add very little value, and the critical challenge is to find a way to maximize the high-impact 10%.
 3. Most new concepts or technologies fail to deliver, while the exceptional ones stand out.
 
-
 ## Overview
 
 In the tech sphere, Sturgeon's Law implies that most code or features are not necessary. Perhaps 90% of experiments or features don't pan out, and only 10% drive real value. 
@@ -26,8 +24,6 @@ It pairs with the idea of the 10x engineer not as someone who writes 10x more co
 
 In practice, Sturgeon's Law encourages continuous refinement, assumes there's a lot of "noise," and focuses on finding the "signal."
 
-
-
 ## Examples
 
 Consider an app with 100 features. User analytics might show that users heavily use 10 of these and the rest not at all, which is exactly what Sturgeon's Law predicts: 90% of this stuff doesn't provide significant value.
@@ -36,31 +32,13 @@ Another example is an organization may have many project ideas to develop each q
 
 In the area of code reviews, a significant amount of code has been written that is neither elegant nor required. This supports the hypothesis that less code is high-quality.
 
-
-
-## Origins
-
-Theodore Sturgeon, a science fiction author, coined this phrase in 1957, responding to criticism that "90% of science fiction is crap." His response: "90% of everything is crap."
-
-It was first published as "Sturgeon's Revelation" in a 1957 issue of Venture magazine.
-
-
-
-
 ## Related Laws
 
 - Goodharts Law
 - Galls Law
 
-
-## Further Reading
-
-- [Sturgeon's Law - Wikipedia](https://en.wikipedia.org/wiki/Sturgeon%27s_law) — Overview of the law and its origins
-- [Over 50% of plugins in the WordPress repository haven't been updated in 2+ years](https://www.reddit.com/r/Wordpress/comments/1n0lnas/over_50_of_plugins_in_the_wordpress_repository/) — Reddit discussion illustrating Sturgeon's Law in the WordPress plugin ecosystem
-
 ---
 
 Citation: "Sturgeon's Law" from *Laws of Software Engineering* by Dr. Milan Milanović
-Canonical URL: https://lawsofsoftwareengineering.com/laws/sturgeons-law/
-Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1) — https://lawsofsoftwareengineering.com/book/
+Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1)
 © 2026 Dr. Milan Milanović. Attribution required.

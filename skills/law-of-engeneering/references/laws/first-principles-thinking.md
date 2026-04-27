@@ -1,6 +1,5 @@
 # First Principles Thinking
 
-> Source: https://lawsofsoftwareengineering.com/laws/first-principles-thinking/
 > Author: Dr. Milan Milanović
 > Category: Decisions
 > Experience Level: mid
@@ -15,14 +14,11 @@ Breaking a complex problem into its most basic blocks and then building up from 
 2. Just because “everyone uses Framework Y for this” isn’t a reason you should do so. First principles thinking pushes you to ask why people do certain things the way they do.
 3. Rather than saying, “This feature will take 3 months because that’s how long similar features took,” break the feature down. Estimate from the basics, which can sometimes show that the “similar” feature had additional issues that you may not have anymore. 
 
-
 ## Overview
 
 First-principles thinking solves problems by questioning existing solutions rather than blindly copying them. Instead of "We'll do X because that other project did X," ask: "What are we really trying to accomplish? What are constraints versus assumptions?" This approach is good for incremental improvements but essential for fundamental changes.
 
 In software design, first principles challenge how current systems work: "If we started from scratch today, how would we build this?" This thinking led to microservices (questioning the monolith) and serverless computing (questioning server management). The drawback is that it is mentally intensive and not always necessary. Many problems are well-solved by known patterns.
-
-
 
 ## Examples
 
@@ -30,33 +26,14 @@ Before SpaceX, launching rockets was costly because industry practice used expen
 
 In software, consider a company paying licensing fees for a proprietary analytics platform. An engineer challenged this by examining what the platform actually does: ingest data, run statistical computations, generate reports. These could be implemented using open-source software and custom programming. A proof-of-concept in Python showed 90% of the solution at a fraction of the cost.
 
-
-
-## Origins
-
-The term "first principles" has roots in classical philosophy. Aristotle referred to first principles as foundational propositions that cannot be deduced from anything else, the bedrock of knowledge. René Descartes emphasized starting from fundamental truths ("I think, therefore I am").
-
-In modern times, first-principles thinking gained fame through Elon Musk, who credits it for SpaceX and Tesla innovations. Instead of thinking "rockets are expensive," he broke down raw material costs and realized building in-house was viable.
-
-
-
-
 ## Related Laws
 
 - Occams Razor
 - Kiss Principle
 - Galls Law
 
-
-## Further Reading
-
-- [First Principles: The Building Blocks of True Knowledge](https://fs.blog/first-principles/) — Farnam Street's comprehensive guide to first principles thinking
-- [Posterior Analytics - Aristotle](https://plato.stanford.edu/entries/aristotle-logic/) — Stanford Encyclopedia of Philosophy on Aristotle's foundational logic
-- [How to Solve It - George Pólya](https://amzn.to/4b9q3Qo) — Classic book on mathematical problem-solving and heuristics
-
 ---
 
 Citation: "First Principles Thinking" from *Laws of Software Engineering* by Dr. Milan Milanović
-Canonical URL: https://lawsofsoftwareengineering.com/laws/first-principles-thinking/
-Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1) — https://lawsofsoftwareengineering.com/book/
+Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1)
 © 2026 Dr. Milan Milanović. Attribution required.

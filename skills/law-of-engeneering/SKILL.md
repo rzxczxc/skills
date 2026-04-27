@@ -7,8 +7,6 @@ description: Apply classic software engineering laws and decision heuristics to 
 
 Use software engineering laws as diagnostic lenses, not as rules that override repo contracts, tests, user requirements, or current evidence.
 
-Source catalog: https://lawsofsoftwareengineering.com/
-
 ## Workflow
 
 1. Identify the decision type: architecture, API/contract, quality, scale, planning, team/process, design, or judgment.
@@ -56,5 +54,5 @@ Use bundled references only when they add needed precision:
 
 - Skip references for small answers where `Fast Lenses` already gives enough direction.
 - Read `references/laws.md` when the task is broad, ambiguous, or needs a category scan before choosing laws.
-- Open `references/laws/<slug>.md` when using a law as a main argument and you need concrete examples, exact source framing, origins, or related laws.
+- Open `references/laws/<slug>.md` when using a law as a main argument and you need concrete examples, tradeoffs, or related laws.
 - Do not load many per-law files by default. Pick the 1-3 files that match the decision after the first category scan.

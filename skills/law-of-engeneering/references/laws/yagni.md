@@ -1,6 +1,5 @@
 # YAGNI (You Aren't Gonna Need It)
 
-> Source: https://lawsofsoftwareengineering.com/laws/yagni/
 > Author: Dr. Milan Milanović
 > Category: Design
 > Experience Level: junior
@@ -15,7 +14,6 @@ Don't add functionality until it is necessary.
 2. Anticipating future needs often leads to over-engineering, and this adds complexity and maintenance issues.
 3. YAGNI encourages iterative development. You implement minimal solutions and refine or extend them when needed.
 
-
 ## Overview
 
 YAGNI captures a core philosophy of agile development: don't write code for features that haven't been requested or aren't immediately needed. 
@@ -25,8 +23,6 @@ If you're implementing Module A and think "in the future we might need Module B 
 This principle directly fights over-engineering. To apply YAGNI successfully, teams rely on confidence in refactoring. You defer a feature only if you trust you can add it later at low cost. 
 
 Agile methods provide that safety net via good test coverage, refactoring tools, and continuous integration. YAGNI pushes the problem of complexity to when it's actually needed.
-
-
 
 ## Examples
 
@@ -38,33 +34,14 @@ Your app needs JSON export? Implement simple JSON, not a full serialization libr
 
 Teams that adopt YAGNI are often comfortable refactoring because they trust that when the feature set grows, they'll have more information about real use cases, leading to better abstractions.
 
-
-
-## Origins
-
-YAGNI was part of the Extreme Programming (XP) paradigm in the late 1990s. It was promoted by Ron Jeffries, one of XP's founders, who wrote: "Always implement things when you actually need them, not when you just foresee that you need them."
-
-The slogan was adopted in XP literature, such as Extreme Programming Installed (2001).
-
-
-
-
 ## Related Laws
 
 - Kiss Principle
 - Dry Principle
 - Premature Optimization
 
-
-## Further Reading
-
-- [YAGNI on Martin Fowler's website](https://martinfowler.com/bliki/Yagni.html) — Clear explanation with practical examples
-- [Extreme Programming Installed](https://amzn.to/4siycbq) — Ron Jeffries, Ann Anderson, Chet Hendrickson
-- [You Aren't Gonna Need It on C2 Wiki](http://wiki.c2.com/?YouArentGonnaNeedIt) — Original XP community discussion
-
 ---
 
 Citation: "YAGNI (You Aren't Gonna Need It)" from *Laws of Software Engineering* by Dr. Milan Milanović
-Canonical URL: https://lawsofsoftwareengineering.com/laws/yagni/
-Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1) — https://lawsofsoftwareengineering.com/book/
+Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1)
 © 2026 Dr. Milan Milanović. Attribution required.

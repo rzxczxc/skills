@@ -1,6 +1,5 @@
 # Peter Principle
 
-> Source: https://lawsofsoftwareengineering.com/laws/peter-principle/
 > Author: Dr. Milan Milanović
 > Category: Teams
 > Experience Level: mid
@@ -15,7 +14,6 @@ In a hierarchy, every employee tends to rise to their level of incompetence.
 2. A great developer promoted to manager might perform poorly, losing a good developer and gaining a bad manager.
 3. Organizations should offer dual career paths (technical vs. managerial) to prevent this stagnation.
 
-
 ## Overview
 
 The Peter Principle explains why organizations often end up with mediocre managers. A great engineer gets promoted to tech lead but struggles in the role, and now the company has lost a great engineer.
@@ -23,8 +21,6 @@ The Peter Principle explains why organizations often end up with mediocre manage
 For a healthy organization, it's essential to mitigate this. Not every senior engineer should become a manager; some might advance as staff or principal engineers instead. New managers need training to be competent in their new role. 
 
 The Peter Principle warns that promotion systems can create mediocrity at higher levels if not designed carefully.
-
-
 
 ## Examples
 
@@ -34,31 +30,13 @@ Consider a QA engineer fantastic at finding bugs who gets promoted to QA Lead, a
 
 Many tech organizations now use **individual contributor (IC) career tracks** to combat this, allowing great engineers to remain engineers with raises and titles rather than forcing them into management to advance. The principle also encourages rotations or acting in leadership roles to ensure competence before permanent assignments.
 
-
-
-## Origins
-
-The Peter Principle was described in the book "The Peter Principle" by **Laurence J. Peter** in 1969. It was meant as a humorous piece of sociology and business insight.
-
-Scott Adams' Dilbert Principle later riffed on it, cynically inverting the idea by suggesting companies promote incompetent people to get them out of the workflow. Both highlight absurdities in corporate culture.
-
-
-
-
 ## Related Laws
 
 - Dilbert Principle
 - Putts Law
 
-
-## Further Reading
-
-- [The Peter Principle - Wikipedia](https://en.wikipedia.org/wiki/Peter_principle) — Overview of the Peter Principle and its implications
-- [The Peter Principle: Why Things Always Go Wrong - Amazon](https://amzn.to/48XHHW7) — The original 1969 book by Laurence J. Peter
-
 ---
 
 Citation: "Peter Principle" from *Laws of Software Engineering* by Dr. Milan Milanović
-Canonical URL: https://lawsofsoftwareengineering.com/laws/peter-principle/
-Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1) — https://lawsofsoftwareengineering.com/book/
+Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1)
 © 2026 Dr. Milan Milanović. Attribution required.

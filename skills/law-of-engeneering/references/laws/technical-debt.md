@@ -1,6 +1,5 @@
 # Technical Debt
 
-> Source: https://lawsofsoftwareengineering.com/laws/technical-debt/
 > Author: Dr. Milan Milanović
 > Category: Quality
 > Experience Level: junior
@@ -16,7 +15,6 @@ Technical Debt is everything that slows us down when developing software.
 3. Not all technical debt is inherently bad. It is sometimes necessary, for instance, for market timing or prototyping. 
 4. The way to pay down technical debt is to refactor code, add missing tests, and improve design.
 
-
 ## Overview
 
 Technical debt highlights a fundamental tension in software engineering: speed vs. quality. The term helps explain to both developers and non-technical stakeholders why seemingly "done" software still needs ongoing work. When you write clumsy code or postpone cleanup, you've essentially taken out a loan: you get short-term feature delivery, but the complexity you introduce is the interest you'll keep paying.
@@ -24,8 +22,6 @@ Technical debt highlights a fundamental tension in software engineering: speed v
 Properly managing technical debt means being conscious of when you're adding a quick workaround or a "temporary" hack, and having a plan to revisit it. Teams often use tools to log technical debt items (like comments, issue tracker tickets, or dedicated debt backlogs). 
 
 When managed, technical debt can be an effective tool; you intentionally take on a bit of messiness to get feedback or meet a deadline, then clean it up. But if ignored, debt becomes a problem.
-
-
 
 ## Examples
 
@@ -35,34 +31,14 @@ Another example is a startup that wants to deliver a quick prototyping effort to
 
 If they just continue to add to it, they will face bugs and slower performance due to the messy code (interest on debt). They realize this and therefore set up a "rehab" sprint to refactor the code, thereby resolving the most troublesome bits.
 
-
-
-## Origins
-
-The term "Technical Debt" was coined by Ward Cunningham (one of the authors of the Agile Manifesto) at the OOPSLA conference in 1992. He first used the financial metaphor while working on a finance application to explain to his boss why the team needed time to refactor code.
-
-Ward compared developing software to borrowing money: it can be wise to take shortcuts (borrow) to achieve something sooner, provided you pay back the loan by cleaning up the code later.
-
-
-
-
 ## Related Laws
 
 - Broken Windows Theory
 - Hofstadters Law
 - Boy Scout Rule
 
-
-## Further Reading
-
-- [Debt Metaphor - Ward Cunningham](https://www.youtube.com/watch?v=pqeJFYwnkjE) — Ward Cunningham's video explaining the original debt metaphor (OOPSLA 1992)
-- [Technical Debt - Martin Fowler](https://martinfowler.com/bliki/TechnicalDebt.html) — Martin Fowler's comprehensive blog post on technical debt
-- [Technical Debt - Wikipedia](https://en.wikipedia.org/wiki/Technical_debt) — Overview of the concept and its management strategies
-- [Accelerate](https://amzn.to/48Xugp3) — Forsgren, Humble, and Kim's research on how technical debt impacts software delivery
-
 ---
 
 Citation: "Technical Debt" from *Laws of Software Engineering* by Dr. Milan Milanović
-Canonical URL: https://lawsofsoftwareengineering.com/laws/technical-debt/
-Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1) — https://lawsofsoftwareengineering.com/book/
+Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1)
 © 2026 Dr. Milan Milanović. Attribution required.

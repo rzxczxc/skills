@@ -1,6 +1,5 @@
 # Principle of Least Astonishment
 
-> Source: https://lawsofsoftwareengineering.com/laws/principle-of-least-astonishment/
 > Author: Dr. Milan Milanović
 > Category: Design
 > Experience Level: mid
@@ -15,7 +14,6 @@ Software and interfaces should behave in a way that least surprises users and ot
 2. Following platform norms or standard conventions yields the least astonishment.
 3. In practice, it improves usability and developer experience. Users can predict how to interact with the software, and developers can predict how to use an API by analogy with similar ones. Surprises often lead to mistakes.
 
-
 ## Overview
 
 The Principle of Least Astonishment (POLA) is a general design principle in user interface design, software API design, coding, and documentation. The idea is simple: don't surprise the user. 
@@ -23,8 +21,6 @@ The Principle of Least Astonishment (POLA) is a general design principle in user
 The system should behave in a way that matches the user's mental model of how it ought to work. Violating this principle doesn't necessarily break functionality, but it breaks trust and ease of use.
 
 In coding, this principle states that your code should behave as the developer expects when name, type, and context are taken into account. We should choose defaults and behaviors that match standard conventions and avoid “surprise” side effects.
-
-
 
 ## Examples
 
@@ -38,19 +34,6 @@ Following standard naming conventions matters: a variable named `isReady` should
 
 A delighted user or developer uses something and it "just works" as expected.
 
-
-
-## Origins
-
-The concept of least astonishment has roots in early human-computer interaction. An early mention appears in PL/I programming language documentation around 1967, complaining that certain behaviors violated the "law of least astonishment."
-
-The principle was explicitly stated in a 1972 publication on programming language design, recommending that language constructs behave as their syntax suggests and follow widely accepted conventions. 
-
-Since then, it has been emphasized across various domains. In the Unix community, Eric Raymond's Art of Unix Programming references it as the "Rule of Least Surprise."
-
-
-
-
 ## Related Laws
 
 - Hyrums Law
@@ -58,16 +41,8 @@ Since then, it has been emphasized across various domains. In the Unix community
 - Postels Law
 - Law of Demeter
 
-
-## Further Reading
-
-- [The Art of Unix Programming](https://amzn.to/4q4uTTY) — Eric S. Raymond's book including the Rule of Least Surprise
-- [How to Design a Good API and Why it Matters](https://www.youtube.com/watch?v=aAb7hSCtvGw) — Joshua Bloch's talk on API design principles
-- [Principle of Least Astonishment - Wikipedia](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) — Overview of the principle with history and examples
-
 ---
 
 Citation: "Principle of Least Astonishment" from *Laws of Software Engineering* by Dr. Milan Milanović
-Canonical URL: https://lawsofsoftwareengineering.com/laws/principle-of-least-astonishment/
-Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1) — https://lawsofsoftwareengineering.com/book/
+Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1)
 © 2026 Dr. Milan Milanović. Attribution required.

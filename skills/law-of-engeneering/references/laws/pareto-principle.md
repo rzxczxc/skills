@@ -1,6 +1,5 @@
 # Pareto Principle (80/20 Rule)
 
-> Source: https://lawsofsoftwareengineering.com/laws/pareto-principle/
 > Author: Dr. Milan Milanović
 > Category: Decisions
 > Experience Level: junior
@@ -16,7 +15,6 @@
 3. It's not always exactly 80/20, but the idea is the same. Use profiling, analytics, and data gathering to empirically identify where the imbalances are.
 4. On a personal level, as an engineer or manager, identify which tasks produce most of your value. It might be coding core features or coaching team members. 
 
-
 ## Overview
 
 The Pareto Principle is more of an observation than a law, but the 80/20 pattern (or similar ratios like 90/10) appears frequently. 
@@ -27,8 +25,6 @@ The principle influences product development too. Often, a few core features sat
 
 The Pareto Principle encourages strategic allocation of effort to maximize outcomes by investing where returns are highest.
 
-
-
 ## Examples
 
 Microsoft found that around **20% of bugs in Windows and Office caused 80% of all crashes**, and a tiny 1% of bugs caused around 50% of errors. By focusing on the critical 1-20% of bugs, they dramatically improved stability. This is textbook Pareto: address the small set of high-impact issues to make most users happier quickly.
@@ -37,34 +33,14 @@ A software team analyzed usage analytics and discovered that out of 50 features,
 
 **Hot spots in code** follow the Pareto pattern. A small part of the codebase drives most defects, slowdowns, and "scary to touch" work. Track commits plus incidents to find them, then pay down debt where it compounds: add tests, simplify paths, reduce coupling, tighten interfaces.
 
-
-
-## Origins
-
-The principle is named after Vilfredo Pareto, an Italian economist who in 1906 noted that about 80% of Italy's land was owned by 20% of the population.
-
-In the 1940s, quality management pioneer Joseph M. Juran adopted the idea when analyzing industrial defects, calling it the "vital few and trivial many" rule. Juran observed that by focusing on the vital few quality issues, one could improve quality with less effort than trying to tackle all problems at once.
-
-
-
-
 ## Related Laws
 
 - Premature Optimization
 - Kiss Principle
 - Teslers Law
 
-
-## Further Reading
-
-- [Microsoft's CEO: 80-20 Rule Applies To Bugs](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features) — How Microsoft applied Pareto to prioritize bug fixes
-- [The 80/20 Principle - Richard Koch](https://amzn.to/44QjIFH) — Book on applying the Pareto Principle to business and life
-- [Pareto Principle - Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle) — Overview of the principle and its applications
-- [Full Text of 10/02 Ballmer Memo](https://www.eweek.com/enterprise-apps/full-text-of-10-02-ballmer-memo/) — Steve Ballmer's 2002 memo referencing the 80/20 rule in Microsoft's strategy
-
 ---
 
 Citation: "Pareto Principle (80/20 Rule)" from *Laws of Software Engineering* by Dr. Milan Milanović
-Canonical URL: https://lawsofsoftwareengineering.com/laws/pareto-principle/
-Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1) — https://lawsofsoftwareengineering.com/book/
+Book: "Laws of Software Engineering" (ISBN 978-969-9893-68-1)
 © 2026 Dr. Milan Milanović. Attribution required.
